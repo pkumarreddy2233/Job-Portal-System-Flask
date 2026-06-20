@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="dashboard">
+    <h1>💼 Job Portal Dashboard</h1>
+    <p>Find Jobs • Post Jobs • Manage Applications</p>
+    <div class="stats">
+    <div class="stat-box">
+        <h2>120+</h2>
+        <p>Jobs Available</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>45+</h2>
+        <p>Companies</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>500+</h2>
+        <p>Applications</p>
+    </div>
+</div>
+
+    <div class="cards">
+        <a class="card" href="/jobs">
+            <h3>View Jobs</h3>
+            <p>Search and apply for jobs</p>
+        </a>
+
+        <a class="card" href="/post-job">
+            <h3>Post Job</h3>
+            <p>Add new job openings</p>
+        </a>
+
+        <a class="card" href="/">
+            <h3>Logout</h3>
+            <p>Go back to home page</p>
+        </a>
+    </div>
+</div>
+</body>
+</html>
