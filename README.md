@@ -24,7 +24,6 @@ A full-stack Job Portal System developed using Python, Flask, HTML, CSS, and SQL
 - Flask Framework
 - Frontend Development
 - Backend Development
-- Database Management
 - Full Stack Web Development
 
 ## Author
